@@ -5,7 +5,7 @@ function Footer() {
     <footer className={styles.footer}>
       <p className={styles.emoji}>🐶🐱🐰🐹🐾</p>
       <p className={styles.texto}>
-        Feito por <strong>Lívia & Miotto</strong>
+        Feito por <strong>Miotto & Lívia</strong>
       </p>
       <p className={styles.sub}>
         © 2025 Patinhas do Coração — Todo amor do mundo para os animaizinhos 🌸
