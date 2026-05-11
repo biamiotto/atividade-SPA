@@ -1,0 +1,95 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  animation: fadeInUp 0.6s ease;
+}
+
+.titulo {
+  font-size: 2.2rem;
+  color: #ff85a1;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  text-align: center;
+  color: #9b8aad;
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: #fff;
+  border: 2px solid #ffd6e0;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 28px rgba(255, 133, 161, 0.25);
+}
+
+.emojiBox {
+  background: #fff0f4;
+  font-size: 3.5rem;
+  text-align: center;
+  padding: 24px;
+}
+
+.info {
+  padding: 20px;
+}
+
+.info h3 {
+  font-size: 1.2rem;
+  color: #4a3f5c;
+  margin-bottom: 10px;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  background: #ffd6e0;
+  color: #ff85a1;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.info p {
+  font-size: 0.9rem;
+  color: #9b8aad;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.botao {
+  width: 100%;
+  background: #ff85a1;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 0;
+  font-weight: 800;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.botao:hover {
+  background: #ff6b91;
+}

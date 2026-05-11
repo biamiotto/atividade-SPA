@@ -1,0 +1,95 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  animation: fadeInUp 0.6s ease;
+}
+
+.titulo {
+  font-size: 2.2rem;
+  color: #ff85a1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.descricao {
+  text-align: center;
+  font-size: 1.05rem;
+  color: #9b8aad;
+  line-height: 1.8;
+  margin-bottom: 48px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-bottom: 60px;
+}
+
+.card {
+  background: #fff0f4;
+  border: 2px solid #ffd6e0;
+  border-radius: 20px;
+  padding: 28px 20px;
+  text-align: center;
+}
+
+.card h3 {
+  color: #ff85a1;
+  font-size: 1.2rem;
+  margin: 10px 0 8px;
+}
+
+.card p {
+  color: #9b8aad;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.emoji {
+  font-size: 2rem;
+}
+
+.fundadoras {
+  text-align: center;
+}
+
+.fundadoras h2 {
+  font-size: 1.7rem;
+  color: #4a3f5c;
+  margin-bottom: 28px;
+}
+
+.dupla {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.pessoa {
+  background: #fff;
+  border: 2px solid #ffd6e0;
+  border-radius: 20px;
+  padding: 28px 36px;
+  text-align: center;
+}
+
+.pessoa span {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.pessoa strong {
+  font-size: 1.1rem;
+  color: #ff85a1;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.pessoa p {
+  color: #9b8aad;
+  font-size: 0.9rem;
+}
